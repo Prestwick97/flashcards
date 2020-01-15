@@ -1,75 +1,85 @@
 $(document).ready(function() {
-  $(".click1").click(function(){
-    $("#op").slideToggle();
+  $("ol").on("click", "li", function() {
+    console.log(this);
+    $(this).next().slideToggle();
+  });
 
-  })
+  // $(".col").click(function() {
+  //   console.log(this);
+  //   $(this).next().slideToggle();
+  // });
 
-  $(".click2").click(function(){
-    $("#var").slideToggle();
-  })
+  // $(".click1").click(function(){
+  //   $("#op").slideToggle();
 
-  $(".click3").click(function(){
-    $("#var-name").slideToggle();
-  })
+  // })
 
-  $(".click4").click(function(){
-    $("#function").slideToggle();
-  })
+  // $(".click2").click(function(){
+  //   $("#var").slideToggle();
+  // })
 
-  $(".click5").click(function(){
-    $("#method").slideToggle();
-  })
+  // $(".click3").click(function(){
+  //   $("#var-name").slideToggle();
+  // })
 
-  $(".click6").click(function(){
-    $("#argument").slideToggle();
-  })
+  // $(".click4").click(function(){
+  //   $("#function").slideToggle();
+  // })
 
-  $(".click7").click(function(){
-    $("#parameter").slideToggle();
-  })
+  // $(".click5").click(function(){
+  //   $("#method").slideToggle();
+  // })
 
-  $(".click8").click(function(){
-    $("#return").slideToggle();
-  })
+  // $(".click6").click(function(){
+  //   $("#argument").slideToggle();
+  // })
 
-  $(".click9").click(function(){
-    $("#chain").slideToggle();
-  })
+  // $(".click7").click(function(){
+  //   $("#parameter").slideToggle();
+  // })
 
-  $(".click10").click(function(){
-    $("#string").slideToggle();
-  })
+  // $(".click8").click(function(){
+  //   $("#return").slideToggle();
+  // })
 
-  $(".click11").click(function(){
-    $("#boolean").slideToggle();
-  })
+  // $(".click9").click(function(){
+  //   $("#chain").slideToggle();
+  // })
 
-  $(".click12").click(function(){
-    $("#undef").slideToggle();
-  })
+  // $(".click10").click(function(){
+  //   $("#string").slideToggle();
+  // })
 
-  $(".click13").click(function(){
-    $("#nan").slideToggle();
-  })
+  // $(".click11").click(function(){
+  //   $("#boolean").slideToggle();
+  // })
 
-  $(".click14").click(function(){
-    $("#escape").slideToggle();
-  })
+  // $(".click12").click(function(){
+  //   $("#undef").slideToggle();
+  // })
 
-  $(".click15").click(function(){
-    $("#alert").slideToggle();
-  })
+  // $(".click13").click(function(){
+  //   $("#nan").slideToggle();
+  // })
 
-  $(".click16").click(function(){
-    $("#comment").slideToggle();
-  })
+  // $(".click14").click(function(){
+  //   $("#escape").slideToggle();
+  // })
 
-  $(".click17").click(function(){
-    $("#jquery").slideToggle();
-  })
+  // $(".click15").click(function(){
+  //   $("#alert").slideToggle();
+  // })
 
-  $(".click18").click(function(){
-    $("#att").slideToggle();
-  })
+  // $(".click16").click(function(){
+  //   $("#comment").slideToggle();
+  // })
+
+  // $(".click17").click(function(){
+  //   $("#jquery").slideToggle();
+  // })
+
+  // $(".click18").click(function(){
+  //   $("#att").slideToggle();
+  // })
 
 });
